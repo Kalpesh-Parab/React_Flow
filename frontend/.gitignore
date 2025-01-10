@@ -1,0 +1,32 @@
+# Node modules and environment files
+node_modules/
+.env
+.DS_Store
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE/Editor settings
+.vscode/
+.idea/
+
+# Build files and caches
+build/
+dist/
+coverage/
+public/*.hot-update.json
+
+# Dependency directories
+package-lock.json
+yarn.lock
+
+# Testing
+*.test.js
+*.test.ts
+jest.config.js
+__snapshots__/
+
+# Miscellaneous
+*.log
